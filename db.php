@@ -5,8 +5,8 @@ class DB{
 		
 		
 		
-		      $this->connection = mysql_connect(':/cloudsql/ewc-group-re-tech:db', 'root', '') or die(mysql_error());
-				mysql_select_db('re_tech', $this->connection) or die(mysql_error());
+		      $this->connection = mysql_connect('remotemysql.com', 'y6dU5Zv0wc', 'tKnXT7Eat6') or die(mysql_error());
+				mysql_select_db('y6dU5Zv0wc', $this->connection) or die(mysql_error());
 		
 		
 		
