@@ -17,10 +17,10 @@ class Database
     /*
      * Edit the following variables
      */
-    private $db_host = ':/cloudsql/ewc-group-re-tech:db';     // Database Host
-    private $db_user = 'root';          // Username
-    private $db_pass = '';          // Password
-    private $db_name = 're_tech';          // Database
+    private $db_host = 'remotemysql.com';     // Database Host
+    private $db_user = 'y6dU5Zv0wc';          // Username
+    private $db_pass = 'tKnXT7Eat6';          // Password
+    private $db_name = 'y6dU5Zv0wc';          // Database
     /*
      * End edit
      */
