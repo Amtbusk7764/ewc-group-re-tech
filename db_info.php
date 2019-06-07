@@ -1,12 +1,12 @@
 <?php
 
-$username="root";
-$password="window16";
-$database="re_tech";
+$username="y6dU5Zv0wc";
+$password="tKnXT7Eat6";
+$database="y6dU5Zv0wc";
 
-$connection = mysql_connect(':/cloudsql/ewc-group-re-tech:db',
-  'root', // username
-  ''      // password
+$connection = mysql_connect('remotemysql.com',
+  'y6dU5Zv0wc', // username
+  'tKnXT7Eat6'      // password
   );
 if (!$connection) {
   die('Not connected : ' . mysql_error());
