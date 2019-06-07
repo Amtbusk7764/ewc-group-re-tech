@@ -17,10 +17,10 @@ class Database
     /*
      * Edit the following variables
      */
-    private $db_host = 'remotemysql.com';     // Database Host
-    private $db_user = 'y6dU5Zv0wc';          // Username
-    private $db_pass = 'tKnXT7Eat6';          // Password
-    private $db_name = 'y6dU5Zv0wc';          // Database
+    private $db_host = ':/cloudsql/thinking-leaf-243001:us-central1:shipryt';     // Database Host
+    private $db_user = 'antbusk';          // Username
+    private $db_pass = 'window167764$';          // Password
+    private $db_name = 'shipryt';          // Database
     /*
      * End edit
      */
