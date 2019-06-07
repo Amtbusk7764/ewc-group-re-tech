@@ -1,12 +1,12 @@
 <?php
 
-$username="y6dU5Zv0wc";
-$password="tKnXT7Eat6";
-$database="y6dU5Zv0wc";
+$username="antbusk";
+$password="Window167764%";
+$database="shipryt";
 
-$connection = mysql_connect('remotemysql.com',
-  'y6dU5Zv0wc', // username
-  'tKnXT7Eat6'      // password
+$connection = mysql_connect(':/cloudsql/thinking-leaf-243001:us-central1:shipryt',
+  'antbusk', // username
+  'Window167764$'      // password
   );
 if (!$connection) {
   die('Not connected : ' . mysql_error());
